@@ -12,7 +12,7 @@ class secache_{
 		}
 
 		if(empty($size)){
-			$size = '100M';
+			$size = '8M';
 		}
 
 		define('SECACHE_SIZE',$size);
